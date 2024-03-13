@@ -23,6 +23,31 @@ body{
     width: 640px;
     margin: 40px auto;
 }
+a{ 
+    text-decoration: none;
+ }
 h1{
     font-weight: 300;
+}
+nav{
+    margin: 24px 0px;
+}
+    nav a{
+        padding: 12px 32px;
+        background-color: var(--primary);
+        border-radius: 8px;
+        margin: 8px;
+        color: #fff;
+        transition: 500ms;
+    }
+    nav a:hover{
+        background-color: var(--accent);
+    }
+
+#frase{
+    background-color: hsl(278, 28%, 36%);
+    padding: 16px;
+    border-radius: 0px 16px 16px 16px;
+    font-size: 24px;
+    color: var(--primary);
 }
