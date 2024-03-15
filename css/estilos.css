@@ -70,5 +70,11 @@ nav{
     color: var(--primary);
 }
 #entrada{
-    
+    background-color: hsl(278, 28%, 36%);
+    margin: 16px;
+    padding: 16px;
+    border-radius: 16px;
+    border: #000;
+    font-size: 24px;
+    color: var(--text);
 }
