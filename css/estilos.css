@@ -51,3 +51,24 @@ nav{
     font-size: 24px;
     color: var(--primary);
 }
+#caja{
+    width: 256px;
+    height: 256px;
+    background-color: #8d8d8d;
+    border-radius: 16px;
+    margin-top: 64px;
+    color: #fff;
+    padding: 32px;
+}
+#span{
+    background-color: hsl(278, 28%, 26%);
+    padding: 16px;
+    border-radius: 0px 16px 16px 16px;
+    font-size: 24px;
+    margin-top: 64px;
+    display: inline-block;
+    color: var(--primary);
+}
+#entrada{
+    
+}
