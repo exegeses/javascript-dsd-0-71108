@@ -86,3 +86,22 @@ nav{
     cursor: pointer;
     margin-right: 8px;
 }
+#contenedor{
+    width: 380px;
+    margin: 64px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(278, 28%, 26%);
+    padding: 16px;
+    border-radius: 16px;
+    font-size: 24px;
+    color: var(--primary);
+}
+    #contenedor img{
+        filter: invert();
+        cursor: pointer;
+        transition: 500ms;
+    }
+    #contenedor img:hover{
+        transform: scale(110%);
+    }
